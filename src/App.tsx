@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="min-h-screen bg-black text-white">
       {/* Header */}
-      <header className="bg-black border-b border-gray-800">
+      <header className="bg-black border-b border-gray-800 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
@@ -104,10 +104,10 @@ function App() {
       {/* Main Content */}
       <section className="py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-3 gap-12">
+          <div className="grid lg:grid-cols-5 gap-12">
             
             {/* Left Content */}
-            <div className="lg:col-span-2 space-y-8">
+            <div className="lg:col-span-3 space-y-8">
               <div>
                 <h2 className="text-3xl font-bold text-white mb-6">
                   Why your support matters
@@ -170,8 +170,8 @@ function App() {
             </div>
 
             {/* Donation Form */}
-            <div className="lg:col-span-1">
-              <div className="bg-gray-900 border-2 border-red-500/20 rounded-lg p-6 shadow-2xl sticky top-8">
+            <div className="lg:col-span-2">
+              <div className="bg-gray-900 border-2 border-red-500/20 rounded-lg p-6 shadow-2xl">
                 <div className="text-center mb-6">
                   <h3 className="text-2xl font-bold text-white mb-2">Make a donation</h3>
                   <p className="text-gray-400">Support independent journalism</p>
